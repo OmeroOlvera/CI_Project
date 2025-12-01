@@ -10,7 +10,7 @@ import org.psnbtech.entity.Asteroid;
 public class AsteroidTest {
 
     @Test
-    //public void testAsteroidCreation() {
+    public void testAsteroidCreation() {
         Random random = new Random(12345);
 
         Asteroid asteroid = new Asteroid(random);
