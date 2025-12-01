@@ -15,7 +15,6 @@ public class AsteroidTest {
 
         Asteroid asteroid = new Asteroid(random);
         //check to make sure asteroid was created
-        //assertNotNull(asteroid);
-        assertFalse(false);
+        assertNotNull(asteroid);
     }
 }
