@@ -24,7 +24,7 @@ public class BulletTest {
         Bullet bullet = new Bullet(owner, 0.0);
 
         //assertEquals(10.0, bullet.getPosition().x, 0.001);
-        //break test
+        //break test - still broken
         assertEquals(999.0, bullet.getPosition().x, 0.001);
         assertEquals(20.0, bullet.getPosition().y, 0.001);
     }
