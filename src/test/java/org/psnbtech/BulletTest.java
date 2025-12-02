@@ -22,7 +22,7 @@ public class BulletTest {
     public void testBulletCreatesSuccessfully() {
         TestEntity owner = new TestEntity(new Vector2(10, 20));
         Bullet bullet = new Bullet(owner, 0.0);
-
+//
         assertEquals(10.0, bullet.getPosition().x, 0.001);
         assertEquals(20.0, bullet.getPosition().y, 0.001);
     }
